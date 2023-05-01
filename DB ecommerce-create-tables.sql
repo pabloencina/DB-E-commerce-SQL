@@ -17,6 +17,7 @@ CREATE TABLE if not exists Direcciones -- DESCRIPCIÓN: Esta tabla trae toda la 
     calle varchar(20) not null    
 );
 
+
 CREATE TABLE if not exists Stock -- DESCRIPCIÓN: Esta tabla tiene una columna con el _id y la cantidad de stock.
 (
 	id_stock int primary key auto_increment,
